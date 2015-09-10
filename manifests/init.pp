@@ -71,7 +71,7 @@ class nux (
 
     nux::rpm_gpg_key{ 'nux':
       path   => '/etc/pki/rpm-gpg/RPM-GPG-KEY-nux.ro',
-      before => yumrepo['nux-dextop','nux-dextop-testing','nux-misc', 'nux-misc-testing'],
+      before => Yumrepo['nux-dextop','nux-dextop-testing','nux-misc', 'nux-misc-testing'],
     }
   } else {
       notice ("Your operating system ${::operatingsystem} will not have the Nux repository applied")
