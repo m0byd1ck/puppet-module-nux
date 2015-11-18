@@ -1,4 +1,14 @@
-## 1.0.2
+## 1.0.3
+
+### Removed:
+
+ - os_maj_version.rb
+ 
+### Modified:
+
+ - use operatingsystemmajrelease
+ 
+ ## 1.0.2
 
 ### Added:
 
